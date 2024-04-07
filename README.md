@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @chandniic
+- 👋 Hi, I’m Chandni <3
 - 👀 I’m interested in photography, motorsports and being nature's daughter 😊
 - 🌱 I’m currently pursuing a degree in Computer Science!
 
