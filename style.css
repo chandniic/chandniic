@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* Soft pink gradient */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: #fff5f8; /* Light pink */
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(255, 0, 102, 0.2); /* Soft pink glow */
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    color: #ff4d6d;
+}
+
+button {
+    background: #ff4d6d; /* Cute pink */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px rgba(255, 0, 102, 0.3);
+}
+
+button:hover {
+    background: #ff3366;
+    transform: scale(1.05);
+}
+
+#date-idea {
+    font-size: 20px;
+    color: #ff3366;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+select {
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid #ff4d6d;
+    font-size: 16px;
+    background-color: #fff5f8;
+    color: #ff3366;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
